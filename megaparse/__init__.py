@@ -1,5 +1,6 @@
 import yaml
 import json
+from megaparse.parsers import parse_kv
 
 __all__ = ['load', 'loads']
 
@@ -12,7 +13,7 @@ def load(stream):
 			assert type(ret) is dict
 		except:
 			try:
-				ret = kv.load(stream)
+				ret = parse_kv(stream)
 			except:
 				ret = {}
 	return ret
