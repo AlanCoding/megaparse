@@ -1,5 +1,7 @@
 # megaparse
-Python bundler for parsing methods (YAML, JSON, etc.) that won't give "no" for an answer
+Python bundler for parsing methods (YAML, JSON, etc.) that won't give "no" for an answer.
+
+If you can type it, we can parse it!
 
 ## Use
 
